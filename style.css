@@ -1,16 +1,28 @@
- <style>
-        table {
-          font-family: arial, sans-serif;
-          border-collapse: collapse;
-          width: 100%;
-        }
-        td, th {
-            border: 1px solid #000000;
-            text-align: left;
-            padding: 8px;
-          }
+
+
+  table {
+    font-family: arial, sans-serif;
+     border-collapse: collapse;
+      width: 100%;
+     }
+  td, th {
+     border: 1px solid #000000;
+     text-align: left;
+     padding: 8px;
+      }
           
-          tr:nth-child(even) {
-            background-color: #dddddd;
-          }
-    </style>
+   .Question {
+    background-color: #f5f5f5;
+   }
+
+   .Above7 {
+    background-color: #88f588;
+   }
+
+   .Above3 {
+    background-color: #f8c374;
+   }
+
+   .Below3 {
+    background-color: #ff4949;
+   }
