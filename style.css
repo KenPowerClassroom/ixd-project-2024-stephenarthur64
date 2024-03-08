@@ -1,5 +1,14 @@
 
-
+  body{
+    display: flex;
+  }
+  .nav{
+      min-width: 200px;
+      font-size: 25px;
+  }
+  .nav a{
+    border: 2px solid #000000;
+  }
   table {
     font-family: arial, sans-serif;
      border-collapse: collapse;
@@ -10,6 +19,15 @@
      text-align: left;
      padding: 8px;
       }
+
+  #CompHeading{
+    text-align: center;
+    font-size:xx-large;
+    color: blue;
+  }
+  #LearningHeading{
+    text-align: center;
+  }
           
    .Question {
     background-color: #f5f5f5;
