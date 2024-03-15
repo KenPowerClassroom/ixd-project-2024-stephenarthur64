@@ -2,12 +2,22 @@
   body{
     display: flex;
   }
-  .nav{
-      min-width: 200px;
-      font-size: 25px;
+  div {
+    padding-right: 50px;
   }
+      
   .nav a{
-    border: 2px solid #000000;
+    min-width: 300px;
+    font-size: 25px;
+    border: #000000;
+    background-color:rgb(197, 196, 196);
+    border: 1px solid #000000;
+    padding: 15px 32px;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display:block;
   }
   table {
     font-family: arial, sans-serif;
